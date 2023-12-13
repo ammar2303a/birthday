@@ -1,0 +1,611 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="">
+  <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+  <meta name="generator" content="Hugo 0.72.0">
+  <title>Carousel Template · Bootstrap</title>
+
+  <link rel="canonical" href="https://v5.getbootstrap.com/docs/5.0/examples/carousel/">
+
+
+
+  <!-- Bootstrap core CSS -->
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css"
+    integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js"
+    integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+
+  <style>
+    .bd-placeholder-img {
+      font-size: 1.125rem;
+      text-anchor: middle;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      user-select: none;
+    }
+
+    @media (min-width: 768px) {
+      .bd-placeholder-img-lg {
+        font-size: 3.5rem;
+      }
+    }
+
+    /* GLOBAL STYLES
+    --------------------------------------------- */
+    /* Padding below the footer and lighter body text */
+
+    body {
+      padding-top: 3rem;
+      padding-bottom: 3rem;
+      color: #5a5a5a;
+    }
+
+
+    /* CUSTOMIZE THE CAROUSEL
+    -------------------------------------------- */
+
+    /* Carousel base class */
+    .carousel {
+      margin-bottom: 4rem;
+    }
+
+    /* Since positioning the image, we need to help out the caption */
+    .carousel-caption {
+      bottom: 3rem;
+      z-index: 10;
+    }
+
+    /* Declare heights because of positioning of img element */
+    .carousel-item {
+      height: 32rem;
+    }
+
+    .carousel-item>img {
+      position: absolute;
+      top: 0;
+      left: 0;
+      min-width: 100%;
+      height: 32rem;
+    }
+
+
+    /* MARKETING CONTENT
+-------------------------------------------------- */
+
+    /* Center align the text within the three columns below the carousel */
+    .marketing .col-lg-4 {
+      margin-bottom: 1.5rem;
+      text-align: center;
+    }
+
+    .marketing h2 {
+      font-weight: 400;
+    }
+
+    .marketing .col-lg-4 p {
+      margin-right: .75rem;
+      margin-left: .75rem;
+    }
+
+
+    /* Featurettes
+------------------------- */
+
+    .featurette-divider {
+      margin: 5rem 0;
+      /* Space out the Bootstrap <hr> more */
+    }
+
+    /* Thin out the marketing headings */
+    .featurette-heading {
+      font-weight: 300;
+      line-height: 1;
+      letter-spacing: -.05rem;
+    }
+
+
+    /* RESPONSIVE CSS
+-------------------------------------------------- */
+
+    @media (min-width: 40em) {
+
+      /* Bump up size of carousel content */
+      .carousel-caption p {
+        margin-bottom: 1.25rem;
+        font-size: 1.25rem;
+        line-height: 1.4;
+      }
+
+      .featurette-heading {
+        font-size: 50px;
+      }
+    }
+
+    @media (min-width: 62em) {
+      .featurette-heading {
+        margin-top: 7rem;
+      }
+    }
+
+    .orange img{
+        background-position: center;
+        background-size: cover;
+       height: 100%;
+       width: 100%;
+    }
+  </style>
+
+
+  <!-- Custom styles for this template -->
+  <link href="carousel.css" rel="stylesheet">
+</head>
+
+<body>
+
+  <header>
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+      <div class="container-fluid">
+        <h2 class="text-center" style="color: rgb(245, 89, 141);">HAPPY BIRTHDAY MELA BABY</h2>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
+          aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+       
+  </header>
+
+  <main>
+
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+        <li data-target="#myCarousel" data-slide-to="3"></li>
+        <li data-target="#myCarousel" data-slide-to="4"></li>
+        <li data-target="#myCarousel" data-slide-to="5"></li>
+       
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"
+            preserveAspectRatio="xMidYMid slice" role="img" focusable="false">
+            <rect width="100%" height="100%" fill="#777" /><img src="../birthday/carousile/cr1.jpg" alt=""></svg>
+
+          <div class="container">
+            <div class="carousel-caption text-left">
+                <h1 class="text-center">Or kitna pagal karengi😍</h1>
+                <p class="text-center">hamesha aesi khoobsuratrahen aap</p>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"
+            preserveAspectRatio="xMidYMid slice" role="img" focusable="false">
+            <rect width="100%" height="100%" fill="#777" /><img src="./1497_BIRTHDAY - Copy.jpg" alt=""></svg>
+
+          <div class="container">
+            <div class="carousel-caption">
+              
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+            <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"
+              preserveAspectRatio="xMidYMid slice" role="img" focusable="false">
+              <rect width="100%" height="100%" fill="#777" /><img src="../birthday/carousile/cr2.jpg" alt=""></svg>
+  
+
+              
+            <div class="container">
+              <div class="carousel-caption">
+                  <h1 class="text-center">Or jab Black pehna karen tab apni nazar utara karen😋</h1>
+                  <p>love u jana❤️</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="carousel-item">
+            <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"
+              preserveAspectRatio="xMidYMid slice" role="img" focusable="false">
+              <rect width="100%" height="100%" fill="#777" /><img src="./wedding-bow-flora-celebration-cotton.jpg" alt=""></svg>
+  
+            <div class="container">
+              <div class="carousel-caption">
+                
+              </div>
+            </div>
+          </div>
+
+          <div class="carousel-item">
+            <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"
+              preserveAspectRatio="xMidYMid slice" role="img" focusable="false">
+              <rect width="100%" height="100%" fill="#777" /><img src="./carousile/cr3.png" alt=""></svg>
+  
+            <div class="container">
+              <div class="carousel-caption">
+                <h1 class="text-center">Kitne khushnaseeb hain ham in pyare hathon me moujood hain🤗</h1>
+
+                <p class="text-center">shukriya hame itna pyar dene ka😚</p>
+              </div>
+            </div>
+          </div>
+        
+        
+        <div class="carousel-item">
+          <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"
+            preserveAspectRatio="xMidYMid slice" role="img" focusable="false">
+            <rect width="100%" height="100%" fill="#777" /><img src="./preview.jpg" alt=""></svg>
+            
+            </div>
+          </div>
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+
+<!-- carousel end -->
+
+
+
+<br>
+<div class="container-fluid pera">
+  <div class="row">
+    <div class="col-md-12 text-center">
+        <br>
+      😍Meri jaan mela baby mela khoobsurat sa bacha🙈😍<br>
+Aaj phrse bare hodaye aap🙈<br>
+Pr bachpana toh abhi bhi nahi gaya😍❤<br>
+<br>
+Abhi bhi hamari goud me bethi hain🙈<br>
+Bachon ki trhan hamare hont geele krti rehti hain💋😘<br>
+<br>
+🙈Wese such me jab goud me bethi hain  to har jagah se batati hain k kitni bari hogyin aap
+Shyd jabhi ham moti moti krte haina😍💋🥰
+<br>
+😍Verdah jana aap such me bht khoobsurat hoti hi jaa rhi hain hm aapko dekh dekh khush hote rehte hain k aap srf meri Verdah hain🥰💋
+<br>
+😘Meri hoor hain aap Nazr ruk si jati hai aap pe blke  aapko nazr nhi dil dekh rha hota hai hamara ❤<br>
+🥰Or phr dil shyd hm me mojood har chz ko aapki khoobsurati batata hai k ham phr khudme bs aapko mehsoos krne lgte hain🥰💋😍
+<br>
+😍Verdah aap takat hain meri aapke sth kabhi kamzor nhi pare😇 <br>
+🥰Aap hamesha se srf meri hain <br>
+Thora muhskil waqt hai jaan pr sb kuch yunhi guzar jayega 🤗 <br>
+Or phr dekhna hm apne bachon k sth khel rhe honge😍💋❤
+<br>
+😍Verdah mela baby yeh kitna khoobsurat din hain hamare liye jo is din itni pyari rehmat allah ne bheji or woh mere naseeb me aayi😍❤
+<br>
+🥰Har guzarte waqt se sth aapse mohabbat hoti hai❤😘<br>
+🥺Koi din nhi guzra aisa jana jisme kabhi aapko na socha ho😍<br>
+😍Har waqt ek khoobsurat chehre ko aone khayalon me rkhte hain🥰<br>
+<br>
+😍Or such me un khyalon me aapki baton ko soch kr khudi khudi hanste hain😊❤
+<br>
+🤗Or hme yaqeen hai aise hi khyalon se aap bhi guzarti hongi😍<br>
+😍K apne ammal ko pyar se lekr  har jagah sth sth rehti hongi❤🥰<br>
+<br>
+🥺bs ab in khyalon se door hona hai❤
+<br>
+❤Aap bht yd aati hain jaan❤
+<br>
+🥰Ab in Yadon se bahr aa k jab aap hamara naam len❤
+Us waqt hme aapke samne hona🥰<br>
+Verdah aapki goud me sona hai🥺<br>
+Mera sukoon hain aap hme apne is sukoon k liye har waqt aapke ps hona hai🥹🥺❤
+<br>
+
+😍Mera pyara baby allah aapko hamesha har woh   khushi de jiski aap allah se duaen krti hain <br>
+Yeh khoobsurat chehra hamesha muskurata rahe kabhi kisi ki buri nazar chooh kr bhi na guzre meri biwi se😍❤<br>
+Allah aapko aapke ammal ka sth de🥰 <br>jitne khuwab apne ammal k sth dekhe hain woh sab poore hon😍<br>
+❤Allah hamari mohabbat ko hamesha ishi trhan barkaraar rkhe or hamari mohabbat hamesha barhti rahe 😍 <br>
+😍Allah akhirat tk hamara sth rkhe  or jannat me phrse hame sth kare😍<br>
+Ameen kehna🤨❤<br>
+😍Allah hamara nikkah kara k hamare is rishte ko hamare dono khandan me sbse behtr rishta sabit krde🤗
+<br>
+😍Allah meri biwi ko himmat de k shadi k bd
+Bht saare bachon ko smbhal saken🙈❤
+<br>
+❤Abto bachon ki dua bhi krdi 
+Ab chahen jitne bache kr skte haina?🙈
+<br><br>
+🥰Verdah jaan yeh din aapke liye har woh khushi lekr aaye jiski aapko khuwaish ho❤💕
+<br>
+🎂🎉Happy birthday jana🎂🎉<br>
+😍Yeh birthday har birthday se zyada pyara ho🤗
+Or yeh wish aapko bs hamari yd se jorte😍 k yeh khoobsurat din bhi hm aapka picha na choren😍💋<br>
+❤I love you Verdah😍<br>
+🥰Jana aapse juri har chz hamare bht kareeb hai or yeh din bhi💕<br>
+🥰Hme to smjh bhi nhi aata k ham wish bhi kese karen❤<br>
+❤Bs aap yeh soch liya karen k bht zyada pyar me krte hain💕<br>
+🥺❤Pr yaqeen hme bhi hai k jitna pyar aap krti hain hm srf happy birthday bhi likh den toh aapke liye usse zyada pyara kuch nhi hoga🥹❤<br>
+🌛<br>
+😍Mera chaand <br>
+💕Bs jldi us birthday ka intezaar hai jab aapko yeh sab hamare bagair nhi prna parega😍<br>
+Apni bahon me  leke wish karenge apni biwi ko🤗<br>
+<br>
+😍Or phr har birthday kitna pyara hua karega na k ham srf akele wish nhi karenge😘❤ <br>
+❤Hamare sth chote chote Verdah ammar bhi honge🙈😍<br>
+<br>
+🥰Verdah hamari family hogi yeh keh k hi kitna pyara lg rha haina?🥹❤<br>
+😍Inshallah bht jld yeh sb haqeeqt me bhi hoga😍💋<br>
+<br>
+😍I love you Verdah❤<br>
+🎂😘HAPPY BIRTHDAY JAAN🎂😘
+💋💋
+<br><br>
+    </div>
+  </div>
+</div>
+<br>
+<div class="container">
+  <div class="row">
+    <div class="col-md-6 laal" >
+      <p class="text-center" style="font-size: 40px;"> 😍🥰😍</p>
+      <br><br><br>
+      <h1 class="text-center" style="color: white;">OR isme toh dulhan lagti hain meri🙈</h1><br><br>
+      <br>
+      <p style="color: white;">jaan hm aapki tasweeron k beech hain <br> <br><br>such me ham aapko dekhne me ruk jate hain <br><br><br> hm bhool jate hain hme kuch kaam krne hain isme😊</p>
+      <br><br><br>
+      <p  style="color: white;">jaan nahi raha jaa rha aapse door apni bahon me lelen😔</p>
+      <br><br>
+      <p  style="color: white;">bht yd aata hai aapka pyar aapki kiss aapka hug krna🤗</p>
+      <br><br><br>
+      <p class="text-center" style="font-size: 40px;">💝💗💕💓</p>
+
+    </div>
+    <div class="col-md-6 uss" >
+      <p class="text-center" style="font-size: 40px;"> 😍🥰😍</p>
+      <br><br><br>
+      <h1 class="text-center" style="color: white;">JAAN🎂😘 aapke sth ham bhi ache lgne lgte hain😍</h1><br><br>
+      <br>
+      <p style="color: white;">mere chand ki roshni se hm bhi chamakte hain😍<br> <br><br>kitne kareeb haina aapke🥺<br><br><br>kaash yeh waqt piche ajayen😊</p>
+      <br><br><br>
+      <p  style="color: white;">apni biwi se kabhi dil hi nhi bhara k bs hamesha har pal ps rahun😔🥰</p>
+      <br><br>
+      <p  style="color: white;">bs thora sbr hi to hai aana toh mere ps hi hai meri moti ko🙈🤗</p>
+      <br><br><br>
+      <p class="text-center" style="font-size: 40px;">💝😍🤗💓</p>
+
+      
+      
+    </div>
+  </div>
+</div>
+
+
+<div class="container-fluid ">
+  <div class="row">
+      <div class="galley-heading col-md-12">
+       <div class="gallery-section text-center">
+         <h2 id="our">MERI</h2><span><h2 id="gallery">VERDAH</h2></span>
+         <br><br>
+         <h4 id="theme">AAPKO AAPKI KHOOBSURATI DIKHAYEN</h4>
+        <br><br>
+        
+        <div class="container-fluid">
+           <div class="row">
+               <div class="gallery-images col-md-3">
+                   <div class="box">
+                       <img src="../birthday/gallery/v20.jpeg" alt="">
+                       <div class="boxH">
+                           <a href="">2020</a>
+                           <h6 id="slide-pera">😍jab aapko dobara dekha toh dekh k hi hil gaye😇</h6>
+                           
+                       </div>
+                   </div>
+               </div>
+
+               <div class="gallery-images col-md-3 col-sm-6">
+                   <div class="box">
+                       <img src="../birthday/gallery/v21.jpeg" alt="">
+                       <div class="boxH">
+                           <a href="">2021</a>
+                           <h6 id="slide-pera">phr woh ek saal is khoobsurat chehre se mohabbat hoti gayi🤩</h6>
+                           
+                       </div>
+                   </div>
+               </div>
+               <div class="gallery-images col-md-3 col-sm-6">
+                   <div class="box">
+                       <img src="../birthday/gallery/v22.jpg" alt="">
+                       <div class="boxH">
+                           <a href="">2022</a>
+                           <h6 id="slide-pera">🥰har saal pehle se zyada khoobsurat hoti rahi meri wife😙</h6>
+                           
+                       </div>
+                   </div>
+               </div>
+               <div class="gallery-images col-md-3 col-sm-6">
+                   <div class="box">
+                       <img src="../birthday/gallery/v23.jpg" alt="">
+                       <div class="boxH">
+                           <a href="">2023</a>
+                           <h6 id="slide-pera">or abto lgta yeh husn rukne ka naam hi le rha😍</h6>
+                           
+                       </div>
+                   </div>
+               </div>
+               <br><br><br>
+               <div class="gallery-images col-md-3 col-sm-6">
+                   <div class="box">
+                       <img src="../birthday/gallery/v1g.jpg" alt="">
+                       <div class="boxH">
+                           <a href="">2024 ayega😍</a>
+                           <h6 id="slide-pera" style="font-size: 12px;">pr ab isse zyada khoobsurat or kiya hoga😍😍pr allah hamesha meri jaan k chehre pe yeh noor qaim rkhe😍</h6>
+                           
+                       </div>
+                   </div>
+               </div>
+               <div class="gallery-images col-md-3 col-sm-6">
+                   <div class="box">
+                       <img src="../birthday/gallery/v2g.jpg" alt="">
+                       <div class="boxH">
+                           <a href="">verdah😍</a>
+                           <h6 id="slide-pera">jana kab in zulfon se khelne ka moka milega😍</h6>
+                           
+                       </div>
+                   </div>
+               </div>
+               <div class="gallery-images col-md-3 col-sm-6">
+                   <div class="box">
+                       <img src="../birthday/gallery/v3g.jpg" alt="">
+                       <div class="boxH">
+                           <a href="">😘❤️</a>
+                           <h6 id="slide-pera">baby kitna chamak raho aap😍🥰</h6>
+                           
+                       </div>
+                   </div>
+               </div>
+               <div class="gallery-images col-md-3 col-sm-6">
+                   <div class="box">
+                       <img src="../birthday/gallery/v4g.jpg" alt="">
+                       <div class="boxH">
+                           <a href="">💋😘</a>
+                           <h6 id="slide-pera">isme aapko dekh k bs dil krta hai k choomte rahen is chehre ko 😘</h6>
+                           
+                       </div>
+                   </div>
+               </div>
+               <div class="gallery-images col-md-3 col-sm-6">
+                <div class="box">
+                    <img src="../birthday/gallery/v5g.png" alt="">
+                    <div class="boxH">
+                        <a href="">jaan❤️</a>
+                        <h5 id="slide-pera" style="font-size: 11px;"> kitni mohabbat hai aapse khudko bhi nhi pata in tasweeron ko bhi aise smbhalte hain jese hamare jism ki zaroort hon yeh🙁❤️ </h5>
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="gallery-images col-md-3 col-sm-6">
+              <div class="box">
+                  <img src="../birthday/gallery/v6g.png" alt="">
+                  <div class="boxH">
+                      <a href="">😗😘</a>
+                      <h5 id="slide-pera">mera chand such me bht roshan ho aap😍</h5>
+                      
+                  </div>
+              </div>
+          </div>
+          <div class="gallery-images col-md-3 col-sm-6">
+            <div class="box">
+                <img src="../birthday/gallery/v7g.png" alt="">
+                <div class="boxH">
+                    <a href="">mela baby😙</a>
+                    <h5 id="slide-pera" style="font-size: 15px;">phoolon ko bhi khoobsurat aap krte ho❤️😍</h5>
+                    
+                </div>
+            </div>
+        </div>
+        <div class="gallery-images col-md-3 col-sm-6">
+          <div class="box">
+              <img src="../birthday/gallery/V8.jpg" alt="">
+              <div class="boxH">
+                  <a href="">🙈🙈</a>
+                  <h5 id="slide-pera" style="font-size: 13px;">Shadi k bd is haal me soch smjh k aana hamare ps😍</h5>
+                  
+              </div>
+          </div>
+      </div>
+      <div class="gallery-images col-md-3 col-sm-6">
+        <div class="box">
+            <img src="../birthday/gallery/V9.jpg" alt="">
+            <div class="boxH">
+                <a href="">jana😍</a>
+                <h5 id="slide-pera" style="font-size: 10px;">aap such me meri hi haina😚yaqeen krna bhi mushkil hai k bht khush naseeb hun k mere ps Verdah hai aapki khoobsurati se zyada jana aapka hame chahna pyara lgta hai💞🤗</h5>
+                
+            </div>
+        </div>
+    </div>
+    <div class="gallery-images col-md-3 col-sm-6">
+      <div class="box">
+          <img src="../birthday/gallery/V10.jpg" alt="">
+          <div class="boxH">
+              <a href="">Mashallah😍</a>
+              <h5 id="slide-pera">bht bht zyada pyari lg rhi hain aap isme😘😍</h5>
+              
+          </div>
+      </div>
+  </div>
+  <div class="gallery-images col-md-3 col-sm-6">
+    <div class="box">
+        <img src="../birthday/gallery/V11.jpg" alt="">
+        <div class="boxH">
+            <a href="">❤️😍</a>
+            <h6 id="slide-pera" style="font-size: 13px;">Allah bhi kitni mohabbat krta hai aapse aapko apne ghr bula liya k aap usse apni mohabbat maange😍</h6>
+            
+        </div>
+    </div>
+</div>
+<div class="gallery-images col-md-3 col-sm-6">
+  <div class="box">
+      <img src="../birthday/gallery/V12.jpg" alt="">
+      <div class="boxH">
+          <a href="">VERDAH💕</a>
+          <h5 id="slide-pera" style="font-size: 10px;">verdah aap bht pyari lgti hain burkhe me or usse zyada pyari naqaab me🥰aapki trhan hme bhi dar lgta hai k koi buri nzr aapko na lage😊apna khyal rkha karen hamare liye❤️😘</h5>
+          
+      </div>
+  </div>
+</div>
+               
+           </div>
+        </div>
+      </div>
+  </div>
+</div>
+</div>
+
+
+<br><hr>
+
+
+<!-- orange start -->
+<div class="container">
+    <div class="row">
+        <div class="col-md-6 orange">
+            <img src="../birthday/gallery/orange.jpg" alt="">
+        </div>
+        <div class="col-md-6" style="background-color: rgb(223, 204, 204);">
+      <h1 class="text-center" style="color:rgb(255, 72, 0);">
+                Meri hot Biwi <br><br> <br>
+                🙈😍❤️
+      </h1>
+      <br> <br> <br>
+      <p class="" style="color: black; font-size: 20px;">    
+          🙈😍
+        Or jab isme aapko dekhte hain aisa lgta hai <br><br>
+        K in pyari nazron se hme  bula rhi hain 💋k ham aake aapko gale se laga kr pyar krte rahen
+        🙈🙈💋😘<br><br>
+        Jaan bht hot lg rhi hain isme🙈💕 itni pyari hoti jaa rhi hain😍<br><br>
+         hm kese brdasht karen yeh doori😍
+        <br><br>
+        Pr saare bdle lenge bs ek bar haath ajayen💋😘
+        <br><br>
+        Bht saara pyara dikhana hai aapko🙈😍   
+</p>
+<br><br>
+<p class="text-center" style="font-size: 30px;">😍❤️😘</p>
+<br>
+<p class="text-center" style="font-size: 30PX; font-weight: bold;">😘I LOVE YOU <br> MELA BABY💞</p>
+        </div>
+    </div>
+</div>
+
+</body>
+
+</html>

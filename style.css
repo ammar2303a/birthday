@@ -1,0 +1,168 @@
+.gallery-section #our{
+    color: rgb(157, 214, 66);
+    display: inline-block;
+    font-size: 42px;
+    font-weight: bold;
+  }
+  
+  .gallery-section span #gallery
+  {
+    position: relative;
+    left: 8px;
+    margin: 13px;
+    font-size: 42px;
+    display: inline-block;
+    font-weight: bold;
+    color:black;
+    font-weight: 400;
+  }
+  .gallery-section #theme{
+    font-size: 18px;
+    color: rgba(0, 0, 0, 0.466);
+    letter-spacing: 8px;
+  }
+  .box 
+  {
+    position: relative;
+    overflow: hidden;
+    margin-top: 5px;
+    cursor: pointer;
+  
+  }
+  .boxH
+  {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.705);
+    width: 80%;
+    height: 250px;
+    left: -80%;
+    bottom: 0;
+    overflow:hidden;
+    box-sizing: border-box;
+      transition: all 0.5s;
+  }
+  .boxH #slide-pera{
+    position: relative;
+    top: 60%;
+    color: white;
+    border-top: 1px solid white;
+  }
+  .box:hover .boxH
+  {
+    
+    left: 10%;
+  }
+  .boxH a 
+  {
+    text-decoration: none;
+    position: relative;
+    top: 40%;
+    color: white;
+    border-radius: 5px;
+    font-size: 30px;
+    transition: all 0.50s;
+    
+    
+  }
+  .boxH a:hover
+  {
+    background-color:rgba(84, 245, 10, 0.466);
+    border: 1px solid white;
+  }
+  .box img
+  {
+    background-size: cover;
+    background-position: center;
+    width: 80%;
+    height: 250px;
+  }
+  /* Footer Section */
+.fot-logo img
+{
+  margin-top: 5px;
+  width: 300px;
+  height: 100px;
+  color: #fff;
+}
+
+.bolls{
+    display: flex;
+}
+
+.bol{
+height: 140px;
+width: 140px;
+border-radius: 50%;
+background-color: grey;
+margin: 10px;
+
+
+}
+
+
+/* Reservation Form*/
+/* .reservation
+{
+  background-image: url(../Images/reservation-from\ image.jpg);
+  position: relative;
+  background-size: cover;
+  width: 100%;
+  height: 500px;
+}
+.form
+{
+  background-color: rgba(255, 255, 255, 0.123);
+  position: absolute;
+  box-shadow: 0px 0px 0px 0px rgb(157, 214, 66);
+  bottom: -3px;
+  top: -4px;
+  left: -4px;
+}
+
+#reser-head
+{
+  color:rgb(157, 214, 66);
+  font-size: 30px;
+  top: 20px;
+  display: inline;
+  float: left;
+  padding-right: 15px;
+    
+}
+.btn-sbt{
+  position: relative;
+  padding: 15px;
+  border: none;
+  color:white;
+  background-color: rgb(85, 245, 10);
+  width: 174px;
+  margin-left: 17px;
+  transition: all 0.50s;
+}
+.input5
+{
+  padding-left: 20px;
+  padding-right: 20px;
+} */
+
+.laal{
+
+    background-image: url(../birthday/gallery/laal.jpg);
+    background-position: center;
+    background-size: cover;
+  
+  }
+  .uss{
+    
+    background-image: url(../birthday/gallery/uss.jpeg);
+    background-position: center;
+    background-size: cover;
+  
+  }
+
+  .pera{
+    background-image: url(../birthday/red-heart.jpg);
+    background-position: center;
+    background-size: cover;
+    color: black;
+  }
